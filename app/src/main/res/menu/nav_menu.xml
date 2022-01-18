@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="General">
+        <menu>
+            <item
+                android:id="@+id/notes"
+                android:icon="@drawable/ic_baseline_event_note_24"
+                android:title="Notes" />
+            <item
+                android:id="@+id/addNote"
+                android:icon="@drawable/ic_baseline_add_circle_24"
+                android:title="Add Note" />
+            <item
+                android:id="@+id/sync"
+                android:icon="@drawable/ic_baseline_sync_24"
+                android:title="Sync Notes" />
+        </menu>
+    </item>
+
+    <item android:title="Smart Notes">
+        <menu>
+            <item
+                android:id="@+id/txtRecognition"
+                android:icon="@drawable/ic_baseline_camera_enhance_24"
+                android:title="Text Recognition" />
+
+            <item
+                android:id="@+id/screenWriting"
+                android:icon="@drawable/ic_baseline_colorize_24"
+                android:title="Screen Writing" />
+        </menu>
+    </item>
+
+    <item android:title="Support">
+        <menu>
+            <item
+                android:id="@+id/rating"
+                android:icon="@drawable/ic_baseline_star_half_24"
+                android:title="Rate Us" />
+            <item
+                android:id="@+id/shareapp"
+                android:icon="@drawable/ic_baseline_share_24"
+                android:title="shareapp" />
+        </menu>
+    </item>
+
+
+    <item android:title="Logout">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_baseline_vpn_key_24"
+                android:title="Logout" />
+        </menu>
+    </item>
+</menu>
